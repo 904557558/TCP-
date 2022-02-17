@@ -1,0 +1,341 @@
+9991 FILE FILE*LEVEL*ALLEL*ALL #查看全部地图
+
+{
+    "Scene_0": {
+        "Name": "map", 
+        "FileName": "map.umap", 
+        "LocalPath": "map.umap", 
+        "FullPath": "E:/Users/GZS20002/Documents/Unreal Projects/搭建场景/Content/map.umap"
+    }, 
+    "Scene_1": {
+        "Name": "sky", 
+        "FileName": "sky.umap", 
+        "LocalPath": "sky.umap", 
+        "FullPath": "E:/Users/GZS20002/Documents/Unreal Projects/搭建场景/Content/sky.umap"
+    }, 
+    "Scene_2": {
+        "Name": "Untitled", 
+        "FileName": "Untitled.umap", 
+        "LocalPath": "Untitled.umap", 
+        "FullPath": "E:/Users/GZS20002/Documents/Unreal Projects/搭建场景/Content/Untitled.umap"
+    }, 
+    "Scene_3": {
+        "Name": "Showcase", 
+        "FileName": "Showcase.umap", 
+        "LocalPath": "AnimStarterPack/Showcase.umap", 
+        "FullPath": "E:/Users/GZS20002/Documents/Unreal Projects/搭建场景/Content/AnimStarterPack/Showcase.umap"
+    }, 
+    "Scene_4": {
+        "Name": "ThirdPersonExampleMap", 
+        "FileName": "ThirdPersonExampleMap.umap", 
+        "LocalPath": "ThirdPersonBP/Maps/ThirdPersonExampleMap.umap", 
+        "FullPath": "E:/Users/GZS20002/Documents/Unreal Projects/搭建场景/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap"
+    }, 
+    "Scene_5": {
+        "Name": "VehicleExampleMap", 
+        "FileName": "VehicleExampleMap.umap", 
+        "LocalPath": "VehicleBP/Maps/VehicleExampleMap.umap", 
+        "FullPath": "E:/Users/GZS20002/Documents/Unreal Projects/搭建场景/Content/VehicleBP/Maps/VehicleExampleMap.umap"
+    }, 
+    "Scene_6": {
+        "Name": "Advanced_Lighting", 
+        "FileName": "Advanced_Lighting.umap", 
+        "LocalPath": "StarterContent/Maps/Advanced_Lighting.umap", 
+        "FullPath": "E:/Users/GZS20002/Documents/Unreal Projects/搭建场景/Content/StarterContent/Maps/Advanced_Lighting.umap"
+    }, 
+    "Scene_7": {
+        "Name": "Minimal_Default", 
+        "FileName": "Minimal_Default.umap", 
+        "LocalPath": "StarterContent/Maps/Minimal_Default.umap", 
+        "FullPath": "E:/Users/GZS20002/Documents/Unreal Projects/搭建场景/Content/StarterContent/Maps/Minimal_Default.umap"
+    }, 
+    "Scene_8": {
+        "Name": "StarterMap", 
+        "FileName": "StarterMap.umap", 
+        "LocalPath": "StarterContent/Maps/StarterMap.umap", 
+        "FullPath": "E:/Users/GZS20002/Documents/Unreal Projects/搭建场景/Content/StarterContent/Maps/StarterMap.umap"
+    }
+}
+
+99996 SCENE SCENE*ACTOR GET # 查看蓝图
+
+{
+    "LightSource": {
+        "Name": "Light Source", 
+        "ID": "LightSource", 
+        "Type": "DirectionalLight", 
+        "Hidden": false, 
+        "IsMovable": true, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false
+    }, 
+    "AtmosphericFog_1": {
+        "Name": "Atmospheric Fog", 
+        "ID": "AtmosphericFog_1", 
+        "Type": "AtmosphericFog", 
+        "Hidden": false, 
+        "IsMovable": true, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false
+    }, 
+    "SkySphere": {
+        "Name": "Sky Sphere", 
+        "ID": "SkySphere", 
+        "Type": "BP_Sky_Sphere_C", 
+        "Hidden": false, 
+        "IsMovable": false, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false, 
+        "IsBlueprint": true
+    }, 
+    "SkyLight_1": {
+        "Name": "SkyLight", 
+        "ID": "SkyLight_1", 
+        "Type": "SkyLight", 
+        "Hidden": true, 
+        "IsMovable": true, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false
+    }, 
+    "SphereReflectionCapture_1": {
+        "Name": "SphereReflectionCapture", 
+        "ID": "SphereReflectionCapture_1", 
+        "Type": "SphereReflectionCapture", 
+        "Hidden": false, 
+        "IsMovable": false, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false
+    }, 
+    "LandscapeGizmoActiveActor_0": {
+        "Name": "LandscapeGizmoActiveActor", 
+        "ID": "LandscapeGizmoActiveActor_0", 
+        "Type": "LandscapeGizmoActiveActor", 
+        "Hidden": false, 
+        "IsMovable": true, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false
+    }, 
+    "Landscape_1": {
+        "Name": "Landscape1", 
+        "ID": "Landscape_1", 
+        "Type": "Landscape", 
+        "Hidden": false, 
+        "IsMovable": false, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false
+    }, 
+    "盒体画刷": {
+        "Name": "盒体 画刷", 
+        "ID": "盒体画刷", 
+        "Type": "Brush", 
+        "Hidden": false, 
+        "IsMovable": false, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false
+    }, 
+    "SM_MERGED_弯曲楼梯_画刷_StaticMesh_2": {
+        "Name": "SM_MERGED_弯曲楼梯_画刷_StaticMesh", 
+        "ID": "SM_MERGED_弯曲楼梯_画刷_StaticMesh_2", 
+        "Type": "StaticMeshActor", 
+        "Hidden": false, 
+        "IsMovable": false, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false
+    }, 
+    "SpotLight_1": {
+        "Name": "SpotLight", 
+        "ID": "SpotLight_1", 
+        "Type": "SpotLight", 
+        "Hidden": false, 
+        "IsMovable": false, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false
+    }, 
+    "ExponentialHeightFog_5": {
+        "Name": "ExponentialHeightFog", 
+        "ID": "ExponentialHeightFog_5", 
+        "Type": "ExponentialHeightFog", 
+        "Hidden": false, 
+        "IsMovable": true, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false
+    }, 
+    "PointLight_1": {
+        "Name": "PointLight", 
+        "ID": "PointLight_1", 
+        "Type": "PointLight", 
+        "Hidden": false, 
+        "IsMovable": false, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false
+    }, 
+    "SpotLight2_3": {
+        "Name": "SpotLight2", 
+        "ID": "SpotLight2_3", 
+        "Type": "SpotLight", 
+        "Hidden": false, 
+        "IsMovable": false, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false
+    }, 
+    "key_2": {
+        "Name": "key", 
+        "ID": "key_2", 
+        "Type": "key_C", 
+        "Hidden": false, 
+        "IsMovable": true, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false, 
+        "IsBlueprint": true
+    }, 
+    "door_BP_8": {
+        "Name": "door_BP", 
+        "ID": "door_BP_8", 
+        "Type": "door_BP_C", 
+        "Hidden": false, 
+        "IsMovable": true, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false, 
+        "IsBlueprint": true
+    }, 
+    "自转方块2_2": {
+        "Name": "自转方块2", 
+        "ID": "自转方块2_2", 
+        "Type": "自转方块_C", 
+        "Hidden": false, 
+        "IsMovable": true, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false, 
+        "IsBlueprint": true
+    }, 
+    "自转方块3_5": {
+        "Name": "自转方块3", 
+        "ID": "自转方块3_5", 
+        "Type": "自转方块_C", 
+        "Hidden": false, 
+        "IsMovable": true, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false, 
+        "IsBlueprint": true
+    }, 
+    "自转方块_2": {
+        "Name": "自转方块", 
+        "ID": "自转方块_2", 
+        "Type": "自转方块_C", 
+        "Hidden": false, 
+        "IsMovable": true, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false, 
+        "IsBlueprint": true
+    }, 
+    "LightmassImportanceVolume_1": {
+        "Name": "LightmassImportanceVolume", 
+        "ID": "LightmassImportanceVolume_1", 
+        "Type": "LightmassImportanceVolume", 
+        "Hidden": false, 
+        "IsMovable": false, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false
+    }, 
+    "ThirdPersonCharacter2_2": {
+        "Name": "ThirdPersonCharacter2", 
+        "ID": "ThirdPersonCharacter2_2", 
+        "Type": "ThirdPersonCharacter_C", 
+        "Hidden": false, 
+        "IsMovable": true, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false, 
+        "IsBlueprint": true
+    }, 
+    "ThirdPersonCharacter3_5": {
+        "Name": "ThirdPersonCharacter3", 
+        "ID": "ThirdPersonCharacter3_5", 
+        "Type": "ThirdPersonCharacter_C", 
+        "Hidden": false, 
+        "IsMovable": true, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false, 
+        "IsBlueprint": true
+    }, 
+    "ThirdPersonCharacter4_8": {
+        "Name": "ThirdPersonCharacter4", 
+        "ID": "ThirdPersonCharacter4_8", 
+        "Type": "ThirdPersonCharacter_C", 
+        "Hidden": false, 
+        "IsMovable": true, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false, 
+        "IsBlueprint": true
+    }, 
+    "ThirdPersonCharacter_2": {
+        "Name": "ThirdPersonCharacter", 
+        "ID": "ThirdPersonCharacter_2", 
+        "Type": "ThirdPersonCharacter_C", 
+        "Hidden": false, 
+        "IsMovable": true, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false, 
+        "IsBlueprint": true
+    }, 
+    "Sedan_2": {
+        "Name": "Sedan", 
+        "ID": "Sedan_2", 
+        "Type": "Sedan_C", 
+        "Hidden": false, 
+        "IsMovable": true, 
+        "IsAnimation": false, 
+        "IsDispatcher": false, 
+        "IsText": false, 
+        "Is3DText": false, 
+        "IsBlueprint": true
+    }
+}
+
+99996 SCENE SCENE*ACTOR GET  # 查看动画
+
